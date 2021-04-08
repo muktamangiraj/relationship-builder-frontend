@@ -1,0 +1,47 @@
+/* Table */
+.divstyle{
+    align-items: center;
+    border: black;
+}
+.table {
+    border: black;
+    min-width: 650px;
+    margin-top: 5%;
+    margin-left: 27%;
+  }
+  .tablerow {
+      background-color: darksalmon;
+      font-weight: bolder;
+  }
+
+
+  /* List */
+  .root {
+    width: 100%;
+    max-width: 36ch;  
+    padding: auto;  
+    /* backgroundColor: theme.palette.background.paper; */
+  };
+  .inline {
+    
+    display: inline;
+  }
+
+  .alert {
+    padding: theme.spacing(1);
+    margin: theme.spacing(1, 0);
+    border: '1px solid';
+  }
+
+  .bullet {
+    display: inline;;
+    margin: 2px;
+    
+    transform: scale(0.8);
+  }
+  .title {
+    font-size: 14px;
+  }
+  .pos {
+   margin-bottom: 12px;
+  }
